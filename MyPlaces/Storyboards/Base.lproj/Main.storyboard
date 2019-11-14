@@ -6,7 +6,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Main View Controller-->
+        <!--My Places-->
         <scene sceneID="YVd-kL-IrF">
             <objects>
                 <tableViewController id="AYt-XR-ul4" customClass="MainViewController" customModule="MyPlaces" customModuleProvider="target" sceneMemberID="viewController">
@@ -29,7 +29,7 @@
                             <outlet property="delegate" destination="AYt-XR-ul4" id="fmT-fa-GCI"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Main View Controller" id="GxW-jw-5jM"/>
+                    <navigationItem key="navigationItem" title="My Places" id="GxW-jw-5jM"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nU7-GJ-WnQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -40,9 +40,12 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="bBv-ga-bz1" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="DBD-eq-B3v">
-                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="DBD-eq-B3v">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="SnellRoundhand-Black" family="Snell Roundhand" pointSize="40"/>
+                        </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
