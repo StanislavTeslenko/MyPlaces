@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0447C655237D82E900223C5E /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0447C654237D82E900223C5E /* CustomTableViewCell.swift */; };
 		04A4DADB237D64CB006DFF57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A4DADA237D64CB006DFF57 /* AppDelegate.swift */; };
 		04A4DADD237D64CB006DFF57 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A4DADC237D64CB006DFF57 /* SceneDelegate.swift */; };
 		04A4DAE2237D64CB006DFF57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A4DAE0237D64CB006DFF57 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0447C654237D82E900223C5E /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		04A4DAD7237D64CB006DFF57 /* MyPlaces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPlaces.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04A4DADA237D64CB006DFF57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04A4DADC237D64CB006DFF57 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0447C653237D82CB00223C5E /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				0447C654237D82E900223C5E /* CustomTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		04A4DACE237D64CB006DFF57 = {
 			isa = PBXGroup;
 			children = (
@@ -59,6 +69,7 @@
 				04A4DAEE237D64EF006DFF57 /* App */,
 				04A4DAF0237D6509006DFF57 /* Resourses */,
 				04A4DAEF237D64FB006DFF57 /* Storyboards */,
+				0447C653237D82CB00223C5E /* Cells */,
 				04A4DAF1237D6513006DFF57 /* ViewControllers */,
 			);
 			path = MyPlaces;
@@ -172,6 +183,7 @@
 			files = (
 				04A4DADB237D64CB006DFF57 /* AppDelegate.swift in Sources */,
 				04A4DADD237D64CB006DFF57 /* SceneDelegate.swift in Sources */,
+				0447C655237D82E900223C5E /* CustomTableViewCell.swift in Sources */,
 				04A4DAF3237D6652006DFF57 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
