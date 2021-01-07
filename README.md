@@ -3,6 +3,7 @@
 
 ## Описание:
 Приложение, разрабатываемое в рамках курсов swiftbook.ru
+
 Цели:
 1. Работа с UITableView
 2. Работа с MapKit и CoreLocation
